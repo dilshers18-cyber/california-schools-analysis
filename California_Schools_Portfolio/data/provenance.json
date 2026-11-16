@@ -1,0 +1,40 @@
+{
+  "source_filename": "cdeschools.sqlite",
+  "source_sha256": "241e42eaea5a905d8fc16df39c8c6c7fdfedaae74f7d049bb0f1fd297d8d25b8",
+  "description": "Column subset of the supplied historical SQLite snapshot; no rows changed or removed.",
+  "retained_columns": {
+    "schools": [
+      "CDSCode",
+      "County",
+      "School",
+      "StatusType",
+      "OpenDate"
+    ],
+    "satscores": [
+      "cds",
+      "rtype",
+      "sname",
+      "cname",
+      "enroll12",
+      "NumTstTakr",
+      "AvgScrRead",
+      "AvgScrMath",
+      "AvgScrWrite"
+    ],
+    "frpm": [
+      "Academic Year",
+      "County Code",
+      "District Code",
+      "School Code",
+      "Percent (%) Eligible FRPM (K-12)"
+    ]
+  },
+  "rows": {
+    "schools": 17686,
+    "satscores": 2331,
+    "frpm": 10395
+  },
+  "frpm_year": "2014-2015 (two source records have no year)",
+  "sat_year": "Not encoded in the supplied table; not independently verified.",
+  "license": "Original redistribution terms not verified. Verify before public redistribution of the database."
+}
